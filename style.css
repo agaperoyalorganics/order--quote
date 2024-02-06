@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;   
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(142, 173, 132);
+    
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header h1 {
+    margin-left: 500px;
+    color: white;
+}
+
+.header img {
+    max-width: 150px;
+    height: auto;
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+
+}
+
+.invoice-cover{
+    width: 1080px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding-bottom: 5rem;
+}
+.add-product{
+    max-height: 31rem;
+    margin: 30px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid;
+    padding: 5rem;
+    margin: .3rem;
+    border-radius: 10px;
+    max-width: 28rem;
+}
+
+.added-product {
+    background-color: rgb(87, 85, 85);
+    color: rgb(255, 255, 255);
+    border: 1px solid;
+    padding: 20px;
+    margin: .3rem;
+}
+   
+
+.product-table {
+    min-height: 400px;
+}
+
+th{
+    border: 1px solid black;
+    padding: .1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.table-footer {
+    margin-left: 3px;
+    border-top: 1px solid;
+    padding-top: 10px;
+}
+
+/* Larger than standard 1200px */
+@media (min-width: 1200px) {
+    .main {
+      width: 1000px;
+    }
+  }
+  
+
+  /* Extra small devices (portrait phones, up to 576px) */
+  @media (max-width: 575.98px) {
+    *{
+        font-size: 97%;
+    }
+    .main {
+        display: flex;
+        align-items: center;
+        margin-top: 0px;     
+        padding: 1px;
+        margin: 1px;
+    }    
+    .header h1 {
+        font-size: 1rem;
+        margin-left: 2rem;
+        font-weight: bold;
+    }
+    
+    .header img {
+        max-width: 70px;
+        
+    }
+    .invoice-cover{
+        width: 350px;
+        align-items: center;
+        justify-content: center;
+    }
+    .add-product{
+        padding: 1rem;
+        margin: .3rem;
+        max-width: 20rem;
+    }
+    
+    .added-product {
+        max-width: 20rem;
+        padding: 1rem;
+    }
+       
+    .product-table {
+        min-height: 400px;
+        font-size: 90%;
+        margin: 0;
+    }
+    th{
+        border: 1px solid black;
+        padding: .1rem;
+        padding-left: .3rem;
+        padding-right: .3rem;
+    }
+    
+}
