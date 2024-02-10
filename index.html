@@ -17,31 +17,38 @@
 <body>
 
     <div class="main">
-       
+        <div class="popup" id="popup">
+            <div class="popup-content">
+                <div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
+                    padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+                    border-radius: 8px; will-change: transform;">
+                    <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                        src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF8YvpyP3U&#x2F;kiGuBGCrZ0cfnVJwT9JvPw&#x2F;view?embed">
+                    </iframe>
+                </div>
+                <button id="closeBtn">lets go</button>
+            </div>
+
+ 
+
+          </div>
                 <!-- adding products to the quote  -->
                 <div class="header">
                     <img src="AGAPE ROYAL ORGANICS LOGO.png" alt="agape logo">
-                    <h1>QUOTE </h1>
+                    <h1>Generate your quote</h1>
                 </div>
             <div class="invoice-cover" >
+
                     <div class="add-product" id="invoiceCover">
                         <form id="productForm" class="productForm">
                             <div class="form-group">
                                 <p id="stockMessage" style="color: red; font-weight: bold; display: none;">Product not in stock!!! <span style="font-size: 10px;"> you can add this produt to your quote but you cant place an order for it while are work on restocking it </span></p>
-                                <label for="productName">Product Name</label>
-                                <select class="form-control" id="productName" onchange="updatePrice()" required></select>
+                                <select id="productName" onchange="updatePrice()" required></select>
                             </div>
-                            
-                            <div class="form-group">
-                                <label for="productPrice">Price</label>
-                                <input class="form-control" id="productPrice" readonly>
-                            </div>
-                            <div class="form-group">
-                                <label for="productPrice">quantity</label>
-                                <input type="number" class="form-control" id="productQuantity" required>
-                            </div>
-                        
-                            <button type="submit" class="form-control btn btn-dark">ADD PRODUCT</button>
+                                <p class="nariaSign">₦
+                                </p><input id="productPrice" readonly>
+                                <input type="number" id="productQuantity" required placeholder="1pcs" value="1" min="1">
+                            <button type="submit" class="btn-add-products">ADD PRODUCT</button>
                         </form>
                     </div>
                     <!-- adding products to the quote  -->
@@ -81,16 +88,13 @@
 
     <!-- Invoice Modal -->
     <div class="modal fade" id="invoiceModal" tabindex="-1" role="dialog" aria-labelledby="invoiceModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" id="modalContent">
                 <div class="modal-header">
-                    <div class="invoice-header" style=" display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    margin: 0;">
+                    <div class="invoice-header">
                         <img src="AGAPE ROYAL ORGANICS LOGO.png" alt="" width="100px" style="max-width: 200px;
                         height: auto;">
-                        <h5 class="modal-title" id="invoiceModalLabel" style="margin-left: 200px;">your quote</h5>
+                        <h5 class="modal-title" id="invoiceModalLabel">your quote</h5>
                     </div> 
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
@@ -101,7 +105,7 @@
                         <div class="product-table">
                             <table class="table text-center">
                                 <thead>
-                                    <tr>
+                                    <tr id="tablescontent">
                                     <th scope="col">Product Name</th>
                                     <th scope="col">productQuantity</th>
                                     <th scope="col">Price</th>
@@ -136,12 +140,13 @@
     </div>
     
     <!-- Bootstrap JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js" integrity="sha512-YcsIPGdhPK4P/uRW6/sruonlYj+Q7UHWeKfTAkBW+g83NKM+jMJFJ4iAPfSnVp7BKD4dKMHmVSvICUbE/V1sSw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
 
     <!-- Script JS -->
+    <script src="location.js"></script>
     <script src="./script.js"></script>
 </body>
 
