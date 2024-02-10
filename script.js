@@ -1,5 +1,6 @@
 // Declare data globally
 let data;
+
 function updateTotal() {
     const tableBody = document.getElementById('productTableBody');
     const rows = tableBody.getElementsByTagName('tr');
@@ -67,7 +68,7 @@ function updateStockMessage(instock) {
         borderColor.style.border = '1px solid red'
     } else {
         stockMessage.style.display = 'none';
-        borderColor.style.border = '1px solid black'
+        borderColor.style.border = '0px solid black'
     }
 }
 
@@ -75,15 +76,11 @@ function updateStockMessage(instock) {
 fetchData();
 
 
-
-
-
-
 // search model for products
 const searchInput = document.createElement('input');
+searchInput.className= "searchInput";
 searchInput.type = 'text';
-searchInput.style = "width:100px"
-searchInput.placeholder = '   Search..';
+searchInput.placeholder = '   Search product....';
 searchInput.addEventListener('input', filterProducts);
 
 const dropdown = document.getElementById('productName');
@@ -183,32 +180,20 @@ document.getElementById('generateInvoice').addEventListener('click', function ()
 // download pdf invoice
 
 function printInvoice() {
-    const invoiceContent = document.querySelector('.modal-header').innerHTML;
+    const invoiceContent = document.querySelector('.invoice-header').innerHTML;
     const totalAmount = document.getElementsByClassName('modal-body')[0].innerHTML;
 
     const pdfContent = `
-        <div style="padding: 10px; margin: 0;">
-            <p>Please send this PDF to any of our WhatsApp (09126711653, 07025558753) or Instagram @agaperoyalorganics. You will be attended to immediately before any other customer.</p>
+        <div style="padding: 5px; margin: 0;">
             ${invoiceContent}
             ${totalAmount}
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            </p>
         </div>
     `;
 
     const options = {
         margin: 0,
         padding: 0,
-        filename: 'your_quote.pdf',
+        filename: 'send-to-agape.pdf',
         image: { type: 'jpeg', quality: 0.98 },
         html2canvas: { scale: 4 },
         jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }, 
@@ -225,4 +210,29 @@ document.getElementById('printButton').addEventListener('click', function () {
 
 
 
+function increaseQuantity() {
+    var input = document.getElementById('quantityInput');
+    input.value = parseInt(input.value) + 1;
+  }
+  
+  function decreaseQuantity() {
+    var input = document.getElementById('quantityInput');
+    var newValue = parseInt(input.value) - 1;
+    // Ensure the value doesn't go below 1
+    input.value = newValue < 1 ? 1 : newValue;
+  }
+
+// popup js
+
+document.addEventListener("DOMContentLoaded", function() {
+    var popup = document.getElementById('popup');
+    var canvaPop = document.getElementById('popup');
+    var closeBtn = document.getElementById('closeBtn');
+  
+    closeBtn.addEventListener('click', function() {
+      popup.style.display = 'none';
+      canvaPop.style.display = 'none';
+    });
+  });
+  
 
