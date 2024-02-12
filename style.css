@@ -292,7 +292,6 @@ th{
         width: 320px;
         align-items: center;
         justify-content: center;
-        overflow: hidden;
     }
     .add-product{
         padding: 1rem;
