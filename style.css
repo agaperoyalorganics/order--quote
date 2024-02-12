@@ -22,6 +22,31 @@ body {
     z-index: 9999;
   }
   
+  #generateInvoice{
+    background-color: white;
+    border: none;
+    color: #0A730B;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  #generateInvoice:hover{
+    background-color: wheat;
+    transition: .2s ease;
+  }
+
+#printButton{
+    background-color: #0A730B;
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#printButton:hover{
+    background-color: wheat;
+    transition: .2s ease;
+}
+
   .popup-content {
     background-color: #fff;
     width: 400px;
@@ -69,10 +94,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    padding: 10rem;
     height: 100%;
     padding: 0px;
-
 }
 
 .invoice-cover{
@@ -82,6 +106,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     padding-bottom: 5rem;
 }
+
 .add-product{
     display: flex;
     align-items: center;
@@ -164,7 +189,7 @@ select:hover{
 }
 
 #modalContent{ 
-    padding: .5rem;
+    padding: 2rem;
 }
 
 .modal-header{
