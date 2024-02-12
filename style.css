@@ -97,12 +97,14 @@ body {
     padding: 10rem;
     height: 100%;
     padding: 0px;
+
 }
 
 .invoice-cover{
-    background-color: tr;
     width: 1080px;
     display: grid;
+    align-items: center;
+    justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     padding-bottom: 5rem;
 }
@@ -287,7 +289,7 @@ th{
         max-width: 70px;
     }
     .invoice-cover{
-        width: 350px;
+        width: 320px;
         align-items: center;
         justify-content: center;
         overflow: hidden;
