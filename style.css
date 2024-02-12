@@ -22,13 +22,14 @@ body {
     z-index: 9999;
   }
   
-  #generateInvoice{
+#generateInvoice{
     background-color: white;
     border: none;
     color: #0A730B;
     text-transform: capitalize;
     font-weight: 600;
   }
+
   #generateInvoice:hover{
     background-color: wheat;
     transition: .2s ease;
@@ -97,6 +98,7 @@ body {
     padding: 10rem;
     height: 100%;
     padding: 0px;
+    overflow: hidden;
 
 }
 
