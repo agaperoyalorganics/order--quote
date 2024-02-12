@@ -109,6 +109,7 @@ body {
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     padding-bottom: 5rem;
+    overflow: hidden;
 }
 
 .add-product{
