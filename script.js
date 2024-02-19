@@ -182,11 +182,33 @@ document.getElementById('generateInvoice').addEventListener('click', function ()
 function printInvoice() {
     const invoiceContent = document.querySelector('.invoice-header').innerHTML;
     const totalAmount = document.getElementsByClassName('modal-body')[0].innerHTML;
-
+    // const deliveryDetails = document.getElementsByClassName('delivery-details')[0].innerHTML;
+    const customerName = document.querySelector('#CustomerName').value;
+    const PhoneNumber = document.querySelector('#PhoneNumber').value;
+    const FullAddress = document.querySelector('#fullAddress').value;
+    let DeliverFee = document.querySelector('#deliverFee').value;
+    let invoiceTotal = document.querySelector('#invoiceTotal').textContent;
+    invoiceTotal = parseFloat(invoiceTotal);
+    DeliverFee = parseFloat(DeliverFee);
+    const grandTotal = invoiceTotal + DeliverFee;
+    
     const pdfContent = `
-        <div style="padding: 5px; margin: 0;">
-            ${invoiceContent}
-            ${totalAmount}
+        <div style="padding: 1rem; border: 1px solid black">
+            <div> 
+                ${invoiceContent}
+            </div>
+            <div> 
+                ${totalAmount}
+            </div> 
+            <div style="border: 1px solid black; line-height: 10px; padding: 1rem;"> 
+                <p style="font-weight: 800;">Delivery Details</p>
+                <p>Name: ${customerName}</p>
+                <p>Phone number: ${PhoneNumber}</p>
+                <p>area: ${PhoneNumber}</p>
+                <p>Full Address: ${FullAddress}</p>
+                <p>Delivery Fee: ${DeliverFee}</p>
+            </div> 
+            <p style="text-align: center; background-color: black; color: white;">Grand Total = ${grandTotal}</p>
         </div>
     `;
 
@@ -200,8 +222,13 @@ function printInvoice() {
         // Adjust this line for custom size and orientation
     };
 
-    html2pdf(pdfContent, options).save();
+    // Call html2pdf inside the printInvoice function
+    html2pdf().from(pdfContent).set(options).save();
+
+    // Return the pdfContent if needed for further processing
+    return pdfContent;
 }
+
 
 document.getElementById('printButton').addEventListener('click', function () {
     printInvoice();
