@@ -2783,22 +2783,22 @@
     {
       "name": "PEPPERMINT ESSENTIAL OIL 100ml",
       "price": "7000",
-      "instock": "false"
+      "instock": "true"
     },
     {
       "name": "PEPPERMINT ESSENTIAL OIL 30ml",
       "price": "2000",
-      "instock": "false"
+      "instock": "true"
     },
     {
       "name": "PEPPERMINT ESSENTIAL OIL 50ml",
       "price": "3500",
-      "instock": "false"
+      "instock": "true"
     },
     {
       "name": "PEPPERMINT ESSENTIAL OIL10ml",
       "price": "1000",
-      "instock": "false"
+      "instock": "true"
     },
     {
       "name": "Peppermint Oil 100ml",
@@ -3723,22 +3723,22 @@
     {
       "name": "Tocopherol 100ml",
       "price": "5000",
-      "instock": "false"
+      "instock": "true"
     },
     {
       "name": "Tocopherol 1litre",
       "price": "40000",
-      "instock": "false"
+      "instock": "true"
     },
     {
       "name": "Tocopherol 250ml",
       "price": "10000",
-      "instock": "false"
+      "instock": "true"
     },
     {
       "name": "Tocopherol 500ml",
       "price": "20000",
-      "instock": "false"
+      "instock": "true"
     },
     {
       "name": "TURMERIC LEAF ESSENTIAL OIL 100ml",
