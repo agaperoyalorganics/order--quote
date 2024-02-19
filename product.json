@@ -847,22 +847,22 @@
     {
       "name": "Citrus Fragrance 100g",
       "price": "2000",
-      "instock": "true"
+      "instock": "false"
     },
     {
       "name": "Citrus Fragrance 1kg",
       "price": "16000",
-      "instock": "true"
+      "instock": "false"
     },
     {
       "name": "Citrus Fragrance 250g",
       "price": "4000",
-      "instock": "true"
+      "instock": "false"
     },
     {
       "name": "Citrus Fragrance 500g",
       "price": "8000",
-      "instock": "true"
+      "instock": "false"
     },
     {
       "name": "Cocao Butter 1kg",
@@ -1303,22 +1303,22 @@
     {
       "name": "Filipino Oil 100ml",
       "price": "5000",
-      "instock": "false"
+      "instock": "true"
     },
     {
       "name": "Filipino Oil 1litre",
       "price": "36000",
-      "instock": "false"
+      "instock": "true"
     },
     {
       "name": "Filipino Oil 250ml",
       "price": "10000",
-      "instock": "false"
+      "instock": "true"
     },
     {
       "name": "Filipino Oil 500ml",
       "price": "18000",
-      "instock": "false"
+      "instock": "true"
     },
     {
       "name": "FRANKINCENSE ESSENTIAL OIL 100ml",
