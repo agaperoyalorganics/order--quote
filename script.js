@@ -204,7 +204,6 @@ function printInvoice() {
                 <p style="font-weight: 800;">Delivery Details</p>
                 <p>Name: ${customerName}</p>
                 <p>Phone number: ${PhoneNumber}</p>
-                <p>area: ${PhoneNumber}</p>
                 <p>Full Address: ${FullAddress}</p>
                 <p>Delivery Fee: ${DeliverFee}</p>
             </div> 
