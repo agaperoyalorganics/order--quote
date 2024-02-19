@@ -1,282 +1,322 @@
 [
 {
-  "location": "Apapa",
-  "price": 4000
+"location": "select area",
+"price": ""
 },
 {
-  "location": "Badagry",
-  "price": 7000
+"location": "Abia State",
+"price": 3500
 },
 {
-  "location": "Bariga",
-  "price": 3000
+"location": "Abuja",
+"price": 5000
 },
 {
-  "location": "Badore Ajah Area",
-  "price": 2000
+"location": "Accra Ghana",
+"price": 15000
 },
 {
-  "location": "Banana Island Lagos",
-  "price": 2000
+"location": "Adamawa State",
+"price": 3500
 },
 {
-  "location": "Ebute Ikorodu",
-  "price": 6000
+"location": "Agungi",
+"price": 2000
 },
 {
-  "location": "Epe",
-  "price": 5000
+"location": "Ajah",
+"price": 2000
 },
 {
-  "location": "Festac",
-  "price": 3500
+"location": "Akwa Ibom State",
+"price": 3500
 },
 {
-  "location": "Ikeja",
-  "price": 3500
+"location": "Alagbado",
+"price": 4500
 },
 {
-  "location": "Ikoyi",
-  "price": 2000
+"location": "Anambra State",
+"price": 3500
 },
 {
-  "location": "Ikorodu",
-  "price": 6000
+"location": "Apapa",
+"price": 4000
 },
 {
-  "location": "Ikotun",
-  "price": 4000
+"location": "Awoyaya",
+"price": 3000
 },
 {
-  "location": "Ilupeju",
-  "price": 3500
+"location": "Badagry",
+"price": 6000
 },
 {
-  "location": "Isolo",
-  "price": 3500
+"location": "Badore",
+"price": 2000
 },
 {
-  "location": "Itire-Ikate",
-  "price": 3000
+"location": "Banana Island Lagos",
+"price": 2000
 },
 {
-  "location": "Iyana-Ipaja",
-  "price": 4000
+"location": "Bariga",
+"price": 3500
 },
 {
-  "location": "Lagos Island",
-  "price": 2500
+"location": "Bauchi State",
+"price": 4000
 },
 {
-  "location": "Lekki Phase  1",
-  "price": 2000
+"location": "Bayelsa State",
+"price": 3500
 },
 {
-  "location": "Magodo",
-  "price": 3500
+"location": "Benue State",
+"price": 4000
 },
 {
-  "location": "Marina",
-  "price": 2500
+"location": "Borno State",
+"price": 5000
 },
 {
-  "location": "Maryland",
-  "price": 3500
+"location": "Chevron",
+"price": 2000
 },
 {
-  "location": "Mushin",
-  "price": 3000
+"location": "Cross River State",
+"price": 3500
 },
 {
-  "location": "Obalende",
-  "price": 2500
+"location": "Delta State",
+"price": 3500
 },
 {
-  "location": "Ojo",
-  "price": 4500
+"location": "Ebonyi State",
+"price": 4000
 },
 {
-  "location": "Ogudu GRA",
-  "price": 3000
+"location": "Edo State",
+"price": 3500
 },
 {
-  "location": "Ojodu Berger",
-  "price": 3500
+"location": "Ekiti State",
+"price": 4000
 },
 {
-  "location": "Oniru Estate",
-  "price": 2000
+"location": "Enugu State",
+"price": 3500
 },
 {
-  "location": "Oyingbo",
-  "price": 3000
+"location": "Epe",
+"price": 5000
 },
 {
-  "location": "Surulere",
-  "price": 3000
+"location": "Festac",
+"price": 3500
 },
 {
-  "location": "Victoria Island",
-  "price": 2000
+"location": "Gombe State",
+"price": 5000
 },
 {
-  "location": "Yaba",
-  "price": 3000
+"location": "Igboefon",
+"price": 2000
 },
 {
-  "location": "Alagbado",
-  "price": 4500
+"location": "Ikeja",
+"price": 3500
 },
 {
-  "location": "Apapa.",
-  "price": 3500
+"location": "Ikorodu",
+"price": 5000
 },
 {
-  "location": "niger",
-  "price": 6000
+"location": "Ikotun",
+"price": 4000
 },
 {
-  "location": "Borno State",
-  "price": 5000
+"location": "Ikoyi",
+"price": 3000
 },
 {
-  "location": "Taraba State",
-  "price": 5000
+"location": "Ilupeju",
+"price": 3500
 },
 {
-  "location": "Kaduna State",
-  "price": 5000
+"location": "Imo State",
+"price": 3500
 },
 {
-  "location": "Bauchi State",
-  "price": 5000
+"location": "Isolo",
+"price": 3500
 },
 {
-  "location": "Yobe State",
-  "price": 5000
+"location": "Iyana-Ipaja",
+"price": 4000
 },
 {
-  "location": "Zamfara State",
-  "price": 5000
+"location": "Jakande",
+"price": 2000
 },
 {
-  "location": "Adamawa State",
-  "price": 5000
+"location": "Jigawa State",
+"price": 5000
 },
 {
-  "location": "Kwara State",
-  "price": 5000
+"location": "Kaduna State",
+"price": 5000
 },
 {
-  "location": "Kebbi State",
-  "price": 5000
+"location": "Kano State",
+"price": 5000
 },
 {
-  "location": "Benue State",
-  "price": 5000
+"location": "Katsina State",
+"price": 5000
 },
 {
-  "location": "Plateau State",
-  "price": 5000
+"location": "Kebbi State",
+"price": 5000
 },
 {
-  "location": "Kogi State",
-  "price": 5000
+"location": "Kogi State",
+"price": 5000
 },
 {
-  "location": "Oyo State",
-  "price": 5000
+"location": "Kwara State",
+"price": 5000
 },
 {
-  "location": "Nasarawa State",
-  "price": 5000
+"location": "Lagos Island",
+"price": 2500
 },
 {
-  "location": "Sokoto State",
-  "price": 5000
+"location": "lakowe",
+"price": 2500
 },
 {
-  "location": "Katsina State",
-  "price": 5000
+"location": "Lekki Phase  1",
+"price": 2000
 },
 {
-  "location": "Jigawa State",
-  "price": 5000
+"location": "Magodo",
+"price": 3500
 },
 {
-  "location": "Cross River State",
-  "price": 5000
+"location": "Marina",
+"price": 2500
 },
 {
-  "location": "Kano State",
-  "price": 5000
+"location": "Maryland",
+"price": 3500
 },
 {
-  "location": "Gombe State",
-  "price": 5000
+"location": "Mazamaza",
+"price": 4000
 },
 {
-  "location": "Edo State",
-  "price": 5000
+"location": "Mushin",
+"price": 3500
 },
 {
-  "location": "Delta State",
-  "price": 5000
+"location": "Nasarawa State",
+"price": 5000
 },
 {
-  "location": "Ogun State",
-  "price": 5000
+"location": "niger",
+"price": 6000
 },
 {
-  "location": "Ondo State",
-  "price": 5000
+"location": "Obalende",
+"price": 2500
 },
 {
-  "location": "Rivers State",
-  "price": 5000
+"location": "Ochid",
+"price": 2000
 },
 {
-  "location": "Bayelsa State",
-  "price": 5000
+"location": "Ogudu GRA",
+"price": 3000
 },
 {
-  "location": "Osun State",
-  "price": 5000
+"location": "Ogun State",
+"price": 3500
 },
 {
-  "location": "Federal Capital Territory",
-  "price": 5000
+"location": "Ojo",
+"price": 4500
 },
 {
-  "location": "Enugu State",
-  "price": 5000
+"location": "Ojodu Berger",
+"price": 3500
 },
 {
-  "location": "Akwa Ibom State",
-  "price": 5000
+"location": "Ondo State",
+"price": 3500
 },
 {
-  "location": "Ekiti State",
-  "price": 5000
+"location": "Oniru",
+"price": 3000
 },
 {
-  "location": "Abia State",
-  "price": 5000
+"location": "Oshodi",
+"price": 3500
 },
 {
-  "location": "Ebonyi State",
-  "price": 5000
+"location": "Osun State",
+"price": 3500
 },
 {
-  "location": "Imo State",
-  "price": 5000
+"location": "Oyingbo",
+"price": 3000
 },
 {
-  "location": "Anambra State",
-  "price": 5000
+"location": "Oyo State",
+"price": 3500
 },
 {
-  "location": "Lagos State",
-  "price": 5000
+"location": "Plateau State",
+"price": 5000
+},
+{
+"location": "Rivers State",
+"price": 5000
+},
+{
+"location": "Sangotedo",
+"price": 2000
+},
+{
+"location": "Sokoto State",
+"price": 5000
+},
+{
+"location": "Surulere",
+"price": 3000
+},
+{
+"location": "Taraba State",
+"price": 5000
+},
+{
+"location": "Trade fair",
+"price": 5500
+},
+{
+"location": "Victoria Island",
+"price": 2000
+},
+{
+"location": "Yaba",
+"price": 4000
+},
+{
+"location": "Yobe State",
+"price": 5000
+},
+{
+"location": "Zamfara State",
+"price": 5000
 }
 ]
