@@ -135,17 +135,17 @@ body {
 
 .searchInput::placeholder{
     color: white;
-    font-size: .5rem;
-    
+    font-size: .7rem;
 }
+
 .searchInput{
-    width: 6rem; 
-    height: 1.8rem; 
+    width: 10rem; 
+    height: 2rem; 
     border: .2rem solid rgb(159, 152, 152); 
     background-color: transparent; 
     border-radius: 5px;
     color: white;
-    font-size: .5rem;
+    font-size: .7rem;
     margin: .5rem;
     margin-right: 5rem;
 }
@@ -159,7 +159,7 @@ color:green;
     
 }
 
-select{
+#productName{
     width: 280px;
     height: 3rem;
     border-radius: 10px;
@@ -169,7 +169,7 @@ select{
     color: white;
 }
 
-select:hover{
+#productName:hover{
     transition: .5s all ease;
     color:green;
     background-color: white;
@@ -271,6 +271,51 @@ th{
     border-top: 1px solid;
     padding-top: 10px;
 }
+
+.delivery-details {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.delivery-details p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.delivery-details input[type="text"],
+.delivery-details input,
+.delivery-details select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.delivery-details input[type="text"].fullAddress {
+    height: 100px; /* Adjust the height as needed */
+}
+
+.delivery-details input[type="text"]:focus,
+.delivery-details input[type="number"]:focus,
+.delivery-details select:focus {
+    outline: none;
+    border-color: #007bff; /* Change the color as needed */
+}
+
+
+
+
+
+
+
 
 /* Larger than standard 1200px */
 
