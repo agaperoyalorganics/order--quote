@@ -2667,22 +2667,32 @@
     },
     {
       "name": "oshaprapra soap orange",
-      "price": "350",
+      "price": "500",
       "instock": "true"
     },
     {
       "name": "oshaprapra soap orange bag(30pcs)",
-      "price": "9000",
+      "price": "13800",
       "instock": "true"
     },
     {
       "name": "oshaprapra soap pink",
-      "price": "350",
+      "price": "500",
       "instock": "true"
     },
     {
       "name": "oshaprapra soap pink bag(30pcs)",
-      "price": "9000",
+      "price": "13800",
+      "instock": "true"
+    },
+    {
+      "name": "oshaprapra soap yellow",
+      "price": "500",
+      "instock": "true"
+    },
+    {
+      "name": "oshaprapra soap yellow bag(30pcs)",
+      "price": "13800",
       "instock": "true"
     },
     {
