@@ -182,10 +182,13 @@ document.getElementById('generateInvoice').addEventListener('click', function ()
 function printInvoice() {
     const invoiceContent = document.querySelector('.invoice-header').innerHTML;
     const totalAmount = document.getElementsByClassName('modal-body')[0].innerHTML;
-    // const deliveryDetails = document.getElementsByClassName('delivery-details')[0].innerHTML;
+
     const customerName = document.querySelector('#CustomerName').value;
     const PhoneNumber = document.querySelector('#PhoneNumber').value;
     const FullAddress = document.querySelector('#fullAddress').value;
+    let LocationArea = document.querySelector('#locationArea');
+    const selectedLocation = LocationArea.options[LocationArea.selectedIndex].textContent;
+
     let DeliverFee = document.querySelector('#deliverFee').value;
     let invoiceTotal = document.querySelector('#invoiceTotal').textContent;
     invoiceTotal = parseFloat(invoiceTotal);
@@ -205,6 +208,7 @@ function printInvoice() {
                 <p>Name: ${customerName}</p>
                 <p>Phone number: ${PhoneNumber}</p>
                 <p>Full Address: ${FullAddress}</p>
+                <p>State/Area: ${selectedLocation}</p>
                 <p>Delivery Fee: ${DeliverFee}</p>
             </div> 
             <p style="text-align: center; background-color: black; color: white;">Grand Total = ${grandTotal}</p>
