@@ -1412,7 +1412,12 @@
     },
     {
       "name": "Ghana white soap/balls",
-      "price": "700",
+      "price": "12000",
+      "instock": "true"
+    },
+    {
+      "name": "Ghana white soap/balls 10pcs",
+      "price": "11000",
       "instock": "true"
     },
     {
