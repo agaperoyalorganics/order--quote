@@ -3242,26 +3242,31 @@
     },
     {
       "name": "Sepi White MSH(oil soluble) 100G",
-      "price": "14000",
-      "instock": "true"
-    },
-    {
-      "name": "Sepi White MSH(oil soluble) 1KG",
-      "price": "100000",
-      "instock": "true"
-    },
-    {
-      "name": "Sepi White MSH(oil soluble) 250G",
       "price": "26000",
       "instock": "true"
     },
     {
-      "name": "Sepi White MSH(oil soluble) 500G",
+      "name": "Sepi White MSH(oil soluble) 1KG",
+      "price": "200000",
+      "instock": "true"
+    },
+    {
+      "name": "Sepi White MSH(oil soluble) 250G",
       "price": "50000",
       "instock": "true"
     },
     {
+      "name": "Sepi White MSH(oil soluble) 500G",
+      "price": "100000",
+      "instock": "true"
+    },
+    {
       "name": "Sepi White MSH(oil soluble) 50G",
+      "price": "14000",
+      "instock": "true"
+    },
+    {
+      "name": "Sepi White MSH(oil soluble) 15G",
       "price": "8000",
       "instock": "true"
     },
