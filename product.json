@@ -3247,7 +3247,7 @@
     },
     {
       "name": "Sepi White MSH(oil soluble) 1KG",
-      "price": "200000",
+      "price": "280000",
       "instock": "true"
     },
     {
@@ -4118,6 +4118,11 @@
     {
       "name": "YLANG YLANG ESSENTIAL OIL 30ml",
       "price": "2000",
+      "instock": "true"
+    },
+    {
+      "name": "Benzoyl peroxide 1kg",
+      "price": "45000",
       "instock": "true"
     },
     {
